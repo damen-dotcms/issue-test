@@ -40,12 +40,3 @@ body:
       value: TODO
     validations:
       required: true
-  - type: textarea
-    id: user-story
-    attributes:
-      label: User Story
-      description: Fill in the role, action, and benefit.
-      placeholder: As a ___, I want ___, in order to ___.
-      value: TODO
-    validations:
-      required: true
