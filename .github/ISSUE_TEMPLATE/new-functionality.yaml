@@ -68,8 +68,8 @@ body:
       description: Provide links to any figma files.
       placeholder:
       value: 
-      validations:
-        required: false
+    validations:
+      required: false
 
   - type: textarea
     id: assumptions
@@ -78,8 +78,8 @@ body:
       description: Please list out any relevant assumptions.
       placeholder:
       value: 
-      validations:
-        required: false
+    validations:
+      required: false
 
   - type: textarea
     id: testing-notes
@@ -88,5 +88,5 @@ body:
       description: Please list out any relevant assumptions.
       placeholder:
       value: 
-      validations:
-        required: false
+    validations:
+      required: false
