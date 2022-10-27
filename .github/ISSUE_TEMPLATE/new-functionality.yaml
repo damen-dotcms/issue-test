@@ -2,7 +2,7 @@ name: New Feature
 
 description: I need to change the way something works, or create a new feature.
 
-title: "[New Functionality] : "
+title: 
 
 labels: ['Type - New Functionality']
 
@@ -34,10 +34,10 @@ body:
     attributes:
       label: Proposed Priority
       options:
-        - Priority 1 Show Stopper
-        - Priority 2 Important
-        - Priority 3 Average
-        - Priority 4 Trivial
+        - "Priority 1 - Show Stopper"
+        - "Priority 2 - Important"
+        - "Priority 3 - Average"
+        - "Priority 4 - Trivial"
     validations:
       required: true
 
@@ -56,8 +56,8 @@ body:
     attributes:
       label: Acceptance Criteria
       description: Provide links to any support tickets or Slack conversations to help explain the objective.
-      placeholder:  
-      value: No additional Acceptance Criteria can be provided.
+      placeholder: Warning : Issue can not be moved into estimation or development without Acceptance Criteria being defined.
+      value: 
     validations:
       required: true
 
@@ -97,7 +97,7 @@ body:
       label: Estimates
       description: Used by development team.
       placeholder:
-      value: 
+      value: TODO
     validations:
       required: false
       
@@ -107,6 +107,6 @@ body:
       label: Tasks
       description: Used by development team when creating estimates.
       placeholder:
-      value: 
+      value: TODO
     validations:
       required: false
