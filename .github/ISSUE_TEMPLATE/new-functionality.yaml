@@ -32,7 +32,7 @@ body:
         - Priority - 3 Average
         - Priority - 4 Low
     validations:
-      required: true
+        required: true
   - type: textarea
     id: user-story
     attributes:
