@@ -20,8 +20,6 @@ body:
         - Sales
         - Security
         - User Experience
-    validations:
-      required: true
   - type: dropdown
     id: proposed-prioritiy
     attributes:
@@ -31,8 +29,6 @@ body:
         - Priority 2 Important
         - Priority 3 Average
         - Priority 4 Low
-    validations:
-      required: true
   - type: textarea
     id: user-story
     attributes:
