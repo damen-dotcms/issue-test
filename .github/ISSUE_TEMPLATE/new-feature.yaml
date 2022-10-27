@@ -1,6 +1,6 @@
-name: Feature Request
+name: New Feature
 description: I need to change the way something works, or create a new feature.
-title: "[Feature Request] : "
+title: "[New Feature] : "
 labels: ["Type - New Functionality"]
   - damen-dotcms
 body:
