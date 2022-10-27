@@ -21,18 +21,18 @@ body:
         - Security
         - User Experience
     validations:
-    required: true
+      required: true
   - type: dropdown
     id: proposed-prioritiy
     attributes:
       label: Proposed Priority
       options:
-        - Priority 1 : Show Stopper
-        - Priority 2 : Important
-        - Priority 3 : Average
-        - Priority 4 : Low
+        - Priority 1 Show Stopper
+        - Priority 2 Important
+        - Priority 3 Average
+        - Priority 4 Low
     validations:
-    required: true
+      required: true
   - type: textarea
     id: user-story
     attributes:
