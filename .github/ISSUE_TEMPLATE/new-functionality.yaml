@@ -72,6 +72,16 @@ body:
       required: false
 
   - type: textarea
+    id: testing-notes
+    attributes:
+      label: "Testing Notes"
+      description: "Notes on how to test this."
+      placeholder:
+      value: 
+    validations:
+      required: false
+
+  - type: textarea
     id: assumptions
     attributes:
       label: "Assumptions"
@@ -81,16 +91,6 @@ body:
     validations:
       required: false
 
-  - type: textarea
-    id: testing-notes
-    attributes:
-      label: "Testing Notes"
-      description: "Notes on how to test this."
-      placeholder:
-      value: 
-    validations:
-      required: false
-      
   - type: textarea
     id: estimates
     attributes:
