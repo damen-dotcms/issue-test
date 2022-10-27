@@ -1,7 +1,7 @@
-name: Feature Request!
+name: Feature Request
 description: I need to change the way something works, or create a new feature.
 title: "[Feature Request] : "
-labels: ["bug", "triage"]
+labels: ["Type - New Functionality"]
   - damen-dotcms
 body:
   - type: dropdown
