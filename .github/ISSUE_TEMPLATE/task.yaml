@@ -42,10 +42,10 @@ body:
       required: true
 
   - type: textarea
-    id: tasks
+    id: task
     attributes:
-      label: "Tasks"
-      description: "Used by development team when creating estimates."
+      label: "Task"
+      description:
       placeholder:
       value:
     validations:
