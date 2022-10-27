@@ -1,9 +1,7 @@
 name: New Feature
 description: I need to change the way something works, or create a new feature.
-title: "[New Feature] : "
-labels: ["Type - New Functionality"]
-assignees:
-  - damen-dotcms
+title: "[New Functionality] : "
+labels: ['Type - New Functionality']
 body:
   - type: dropdown
     id: proposed-objective
@@ -20,6 +18,7 @@ body:
         - Security 
     validations:
       required: true
+
   - type: dropdown
     id: proposed-prioritiy
     attributes:
@@ -31,7 +30,8 @@ body:
         - Priority - 4 Low
     validations:
       required: true
-- type: textarea
+
+  - type: textarea
     id: user-story
     attributes:
       label: User Story
