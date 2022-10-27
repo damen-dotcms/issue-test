@@ -1,16 +1,10 @@
 name: New Feature
-
 description: I need to change the way something works, or create a new feature.
-
 title: "[New Functionality] : "
-
 labels: ['Type - New Functionality']
-
 assignees:
   - damen-dotcms
-  
 body:
-
   - type: dropdown
     id: proposed-objective
     attributes:
@@ -28,7 +22,6 @@ body:
         - User Experience
     validations:
       required: true
-
   - type: dropdown
     id: proposed-prioritiy
     attributes:
@@ -40,7 +33,6 @@ body:
         - Priority - 4 Low
     validations:
       required: true
-
   - type: textarea
     id: user-story
     attributes:
@@ -50,7 +42,6 @@ body:
       value: 
     validations:
       required: true
-
   - type: textarea
     id: acceptance-criteria 
     attributes:
@@ -60,7 +51,6 @@ body:
       value: No additional Acceptance Criteria can be provided.
     validations:
       required: true
-      
   - type: textarea
     id: wireframes-designs
     attributes:
@@ -70,8 +60,7 @@ body:
       value: 
       validations:
       required: false
-      
-   - type: textarea
+  - type: textarea
     id: assumptions
     attributes:
       label: Assumptions
@@ -80,8 +69,7 @@ body:
       value: 
       validations:
       required: false
-      
-    - type: textarea
+  - type: textarea
     id: testing-notes
     attributes:
       label: Testing Notes
@@ -90,5 +78,3 @@ body:
       value: 
       validations:
       required: false
-
-
