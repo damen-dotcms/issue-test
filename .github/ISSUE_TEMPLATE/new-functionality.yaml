@@ -85,7 +85,27 @@ body:
     id: testing-notes
     attributes:
       label: Testing Notes
-      description: Please list out any relevant assumptions.
+      description: Notes on how to test this.
+      placeholder:
+      value: 
+    validations:
+      required: false
+      
+  - type: textarea
+    id: estimates
+    attributes:
+      label: Estimates
+      description: Used by development team.
+      placeholder:
+      value: 
+    validations:
+      required: false
+      
+  - type: textarea
+    id: tasks
+    attributes:
+      label: Tasks
+      description: Used by development team when creating estimates.
       placeholder:
       value: 
     validations:
