@@ -1,0 +1,52 @@
+name: Task
+
+description: I just need to create a simple to-do for someone on the team.
+
+title: "[Task]: "
+
+labels: ['Type - Task']
+
+assignees:
+  - damen-dotcms
+
+body:
+
+  - type: dropdown
+    id: proposed-objective
+    attributes:
+      label: "Proposed Objective"
+      options:
+        - "Application Performance"
+        - "Customer Support"
+        - "Developer Experience"
+        - "Documentation"
+        - "Maintenance"
+        - "Product Improvement"
+        - "Retention"
+        - "Sales"
+        - "Security"
+        - "User Experience"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: proposed-prioritiy
+    attributes:
+      label: "Proposed Priority"
+      options:
+        - "Priority 1 - Show Stopper"
+        - "Priority 2 - Important"
+        - "Priority 3 - Average"
+        - "Priority 4 - Trivial"
+    validations:
+      required: true
+
+  - type: textarea
+    id: tasks
+    attributes:
+      label: "Tasks"
+      description: "Used by development team when creating estimates."
+      placeholder:
+      value:
+    validations:
+      required: false
