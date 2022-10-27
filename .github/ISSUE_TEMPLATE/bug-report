@@ -1,0 +1,16 @@
+name: Feature Request
+description: I need to change the way something works, or create a new feature 
+title: "[Feature Request] : "
+labels: ["bug", "triage"]
+assignees:
+  - damen-dotcms
+body:
+  - type: textarea
+    id: user-story
+    attributes:
+      label: User Story
+      description: Also tell us, what did you expect to happen?
+      placeholder: As a ___, I want to be able to ___, so I can ___.
+      value: "A bug happened!"
+    validations:
+      required: true
