@@ -45,8 +45,8 @@ body:
     id: task
     attributes:
       label: "Task"
-      description:
-      placeholder:
-      value:
+      description: 
+      placeholder: 
+      value: "- [ ] "
     validations:
       required: false
