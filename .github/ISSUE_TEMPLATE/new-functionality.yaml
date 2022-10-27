@@ -1,28 +1,40 @@
 name: New Feature
+
 description: I need to change the way something works, or create a new feature.
+
 title: "[New Functionality] : "
+
 labels: ['Type - New Functionality']
+
+assignees:
+  - damen-dotcms
+  
 body:
+
   - type: dropdown
     id: proposed-objective
     attributes:
-      label: What broad business objective does this fall under?
+      label: Proposed Objective
+      description: Subject to approval.
       options:
         - Application Performance
-        - Core Improvement
+        - Customer Support
         - Developer Experience
         - Documentation
         - Maintenance
+        - Product Improvement
         - Retention
         - Sales
-        - Security 
+        - Security
+        - User Experience
     validations:
       required: true
 
   - type: dropdown
     id: proposed-prioritiy
     attributes:
-      label: How important is this request?
+      label: Proposed Priority
+      description: Subject to approval.
       options:
         - Priority - 1 Show Stopper
         - Priority - 2 Important
@@ -35,8 +47,50 @@ body:
     id: user-story
     attributes:
       label: User Story
-      description: Fill in the role, action, and benefit.
-      placeholder: As a ___, I want ___, in order to ___.
-      value: TODO
+      description: Fill in the role, action, and benefit. As a ___, I want ___, in order to ___.
+      placeholder:
+      value: 
     validations:
       required: true
+
+  - type: textarea
+    id: acceptance-criteria 
+    attributes:
+      label: Acceptance Criteria
+      description: Provide links to any support tickets or Slack conversations to help explain the objective.
+      placeholder:  
+      value: No additional Acceptance Criteria can be provided.
+    validations:
+      required: true
+      
+  - type: textarea
+    id: wireframes-designs
+    attributes:
+      label: Wireframes / Designs
+      description: Provide links to any figma files.
+      placeholder:
+      value: 
+      validations:
+      required: false
+      
+   - type: textarea
+    id: assumptions
+    attributes:
+      label: Assumptions
+      description: Please list out any relevant assumptions.
+      placeholder:
+      value: 
+      validations:
+      required: false
+      
+    - type: textarea
+    id: testing-notes
+    attributes:
+      label: Testing Notes
+      description: Please list out any relevant assumptions.
+      placeholder:
+      value: 
+      validations:
+      required: false
+
+
