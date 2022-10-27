@@ -1,16 +1,51 @@
 name: Feature Request
-description: I need to change the way something works, or create a new feature 
+description: I need to change the way something works, or create a new feature.
 title: "[Feature Request] : "
 labels: ["bug", "triage"]
 assignees:
   - damen-dotcms
 body:
+  - type: dropdown
+    id: proposed-objective
+    attributes:
+      label: What broad business objective does this fall under?
+      options:
+        - Application Performance
+        - Core Improvement
+        - Developer Experience
+        - Documentation
+        - Maintenance
+        - Retention
+        - Sales
+        - Security 
+    validations:
+      required: true
+  - type: dropdown
+    id: proposed-prioritiy
+    attributes:
+      label: How important is this request?
+      options:
+        - Priority - 1 Show Stopper
+        - Priority - 2 Important
+        - Priority - 3 Average
+        - Priority - 4 Low
+    validations:
+      required: true
+- type: textarea
+    id: user-story
+    attributes:
+      label: User Story
+      description: Fill in the role, action, and benefit.
+      placeholder: As a ___, I want ___, in order to ___.
+      value: TODO
+    validations:
+      required: true
   - type: textarea
     id: user-story
     attributes:
       label: User Story
-      description: Also tell us, what did you expect to happen?
-      placeholder: As a ___, I want to be able to ___, so I can ___.
-      value: "A bug happened!"
+      description: Fill in the role, action, and benefit.
+      placeholder: As a ___, I want ___, in order to ___.
+      value: TODO
     validations:
       required: true
