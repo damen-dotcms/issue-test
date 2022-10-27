@@ -15,7 +15,6 @@ body:
     id: proposed-objective
     attributes:
       label: Proposed Objective
-      description: Subject to approval.
       options:
         - Application Performance
         - Customer Support
@@ -34,7 +33,6 @@ body:
     id: proposed-prioritiy
     attributes:
       label: Proposed Priority
-      description: Subject to approval.
       options:
         - Priority - 1 Show Stopper
         - Priority - 2 Important
