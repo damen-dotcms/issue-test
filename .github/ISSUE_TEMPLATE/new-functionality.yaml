@@ -110,13 +110,3 @@ body:
       value:
     validations:
       required: false
-
-  - type: textarea
-    id: additional-notes
-    attributes:
-      label: "Additional Notes"
-      description:
-      placeholder:
-      value:
-    validations:
-      required: false
