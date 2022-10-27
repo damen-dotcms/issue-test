@@ -1,8 +1,8 @@
-name: New Feature
+name: New Functionality
 
 description: I need to change the way something works, or create a new feature.
 
-title: ""
+title: "[New Functionality]: "
 
 labels: ['Type - New Functionality']
 
