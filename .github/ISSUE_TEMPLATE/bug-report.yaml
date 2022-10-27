@@ -1,5 +1,5 @@
-name: Feature Request
-description: I need to change the way something works, or create a new feature.
+name: "Feature Request"
+description: "I need to change the way something works, or create a new feature."
 title: "[Feature Request] : "
 labels: ["bug", "triage"]
 assignees:
