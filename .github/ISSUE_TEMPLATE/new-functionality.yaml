@@ -62,9 +62,9 @@ body:
       required: true
 
   - type: textarea
-    id: wireframes-designs
+    id: wireframes-designs-prototypes
     attributes:
-      label: "Wireframes / Designs"
+      label: "Wireframes, Designs, or Prototypes"
       description: "Provide links to any figma files."
       placeholder:
       value: 
