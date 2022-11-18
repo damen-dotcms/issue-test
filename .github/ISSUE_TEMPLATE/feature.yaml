@@ -1,10 +1,10 @@
-name: New Functionality
+name: Feature
 
-description: I need to change the way something works, or create a new feature.
+description: I need to change the way something works, or create new functionality.
 
-title: "[New Functionality]: "
+title: "[Feature]: "
 
-labels: ['Type - New Functionality']
+labels: ['Type - Feature']
 
 assignees:
   - damen-dotcms
