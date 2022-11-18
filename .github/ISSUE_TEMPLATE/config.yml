@@ -1,10 +1,6 @@
 blank_issues_enabled: false
 contact_links:
 
-  - name: Use Marker to Report a Bug
-    url: https://marker.io/integrations#browser-extensions
-    about: Quickly add annotated screenshots using Marker.
-
   - name: Looking for Customer Support?
     url: https://www.dotcms.com/contact-us/
     about: Feel free to use the Support Portal if you are an existing customer. 
