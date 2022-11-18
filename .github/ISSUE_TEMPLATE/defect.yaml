@@ -1,0 +1,111 @@
+name: Defect
+
+description: I need to change the way something works, or create a new feature.
+
+title: "[Defect]: "
+
+labels: ['Type - Defect']
+
+assignees:
+  - damen-dotcms
+
+body:
+
+  - type: dropdown
+    id: proposed-objective
+    attributes:
+      label: "Proposed Objective"
+      options:
+        - "Application Performance"
+        - "Core Improvement"
+        - "Developer Experience"
+        - "Documentation"
+        - "Integration Support"
+        - "Maintenance"
+        - "Scalability"
+        - "Security"
+        - "WCAG Compliance"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: proposed-prioritiy
+    attributes:
+      label: "Proposed Priority"
+      options:
+        - "Priority 1 - Show Stopper"
+        - "Priority 2 - Important"
+        - "Priority 3 - Average"
+        - "Priority 4 - Trivial"
+    validations:
+      required: true
+
+  - type: textarea
+    id: user-story
+    attributes:
+      label: "User Story"
+      description: "Fill in the role, action, and benefit. As a ___, I want ___, in order to ___."
+      placeholder:
+      value: 
+    validations:
+      required: true
+
+  - type: textarea
+    id: acceptance-criteria 
+    attributes:
+      label: "Acceptance Criteria"
+      description: "Provide links to any support tickets or Slack conversations to help explain the objective."
+      placeholder: "Note : Issues can not be moved into estimation or development without proper Acceptance Criteria being defined."
+      value: 
+    validations:
+      required: true
+
+  - type: textarea
+    id: wireframes-designs-prototypes
+    attributes:
+      label: "Wireframes, Designs, or Prototypes"
+      description: "Provide links to any figma files."
+      placeholder:
+      value: 
+    validations:
+      required: false
+
+  - type: textarea
+    id: testing-notes
+    attributes:
+      label: "Testing Notes"
+      description: "Notes on how to test this."
+      placeholder:
+      value: 
+    validations:
+      required: false
+
+  - type: textarea
+    id: assumptions
+    attributes:
+      label: "Assumptions"
+      description: "Please list out any relevant assumptions."
+      placeholder:
+      value: 
+    validations:
+      required: false
+
+  - type: textarea
+    id: estimates
+    attributes:
+      label: "Estimates"
+      description: "Used by development team."
+      placeholder:
+      value:
+    validations:
+      required: false
+      
+  - type: textarea
+    id: tasks
+    attributes:
+      label: "Tasks"
+      description: "Used by development team when creating estimates."
+      placeholder:
+      value:
+    validations:
+      required: false
