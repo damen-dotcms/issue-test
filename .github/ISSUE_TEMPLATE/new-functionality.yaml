@@ -17,15 +17,14 @@ body:
       label: "Proposed Objective"
       options:
         - "Application Performance"
-        - "Customer Support"
+        - "Core Improvement"
         - "Developer Experience"
         - "Documentation"
+        - "Integration Support"
         - "Maintenance"
-        - "Product Improvement"
-        - "Retention"
-        - "Sales"
+        - "Scalability"
         - "Security"
-        - "User Experience"
+        - "WCAG Compliance"
     validations:
       required: true
 
