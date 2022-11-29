@@ -16,6 +16,7 @@ body:
     attributes:
       label: "Proposed Objective"
       options:
+        - "Somehting Else"
         - "Application Performance"
         - "Core Improvement"
         - "Developer Experience"
@@ -68,7 +69,7 @@ body:
       placeholder:
       value: 
     validations:
-      required: false
+      required: true
 
   - type: textarea
     id: testing-notes
@@ -78,7 +79,7 @@ body:
       placeholder:
       value: 
     validations:
-      required: false
+      required: true
 
   - type: textarea
     id: assumptions
