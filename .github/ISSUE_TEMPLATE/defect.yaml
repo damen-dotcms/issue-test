@@ -109,7 +109,7 @@ body:
     id: testing-notes
     attributes:
       label: "Testing Notes"
-      description: "Notes on how to test this."
+      description: "Include any notes you can think of that will help someone test this."
       placeholder:
       value: 
     validations:
@@ -128,9 +128,9 @@ body:
   - type: textarea
     id: tasks
     attributes:
-      label: "Tasks"
-      description: "Used by development team when creating estimates."
-      placeholder:
+      label: "Sub-Tasks"
+      description: "Used by development team when creating estimates. Please use a task-list format."
+      placeholder: 
       value:
     validations:
       required: false
