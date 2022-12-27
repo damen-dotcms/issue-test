@@ -15,17 +15,21 @@ body:
     id: proposed-objective
     attributes:
       label: "Proposed Objective"
+      description: "If you have any questions about how to categorize this work, please refer to https://docs.google.com/presentation/d/1C1oCESIL9Z84xXo1DPWQZh48c4BSGlVRAn1DYGEFMUw"
       options:
-        - "Somehting Else"
+        - "Accessibility (WCAG)"
         - "Application Performance"
-        - "Core Improvement"
+        - "Core Improvement (Features)"
+        - "Customer Acquisition"
+        - "Customer Success"
         - "Developer Experience"
         - "Documentation"
         - "Integration Support"
         - "Maintenance"
+        - "Quality Assurance"
         - "Scalability"
         - "Security"
-        - "WCAG Compliance"
+        - "User Experience"
     validations:
       required: true
 
