@@ -107,8 +107,8 @@ body:
       label: "Sub-Tasks"
       description: "Use a task-list format, and feel free to @ people responsible for completion."
       placeholder: |
-        - [ ] Some Task
-        - [ ] Some Task        
+        - [ ] Some Task Related to this Issue
+        - [ ] Some Task for Damen @damen-dotcms        
       value:
     validations:
       required: false
