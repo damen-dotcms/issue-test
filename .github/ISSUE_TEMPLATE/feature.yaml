@@ -86,21 +86,21 @@ body:
       required: false
 
   - type: textarea
-    id: estimates
+    id: sub-tasks
     attributes:
-      label: "Estimates"
-      description: "Used by development team."
-      placeholder:
+      label: "Sub-Tasks"
+      description: "Use a task-list format, and feel free to @ people responsible for completion."
+      placeholder: 
       value:
     validations:
       required: false
       
   - type: textarea
-    id: tasks
+    id: estimates
     attributes:
-      label: "Sub-Tasks"
-      description: "Used by development team when creating estimates. Please use a task-list format."
-      placeholder: 
+      label: "Estimates"
+      description: "Used by development team."
+      placeholder:
       value:
     validations:
       required: false
