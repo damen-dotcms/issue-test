@@ -61,7 +61,7 @@ body:
     validations:
       required: true
       
-- type: textarea
+  - type: textarea
     id: problem-statement
     attributes:
       label: "Problem Statement"
