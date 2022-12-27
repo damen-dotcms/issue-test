@@ -96,7 +96,7 @@ body:
       required: false
 
   - type: textarea
-    id: tasks
+    id: sub-tasks
     attributes:
       label: "Sub-Tasks"
       description: "Use a task-list format, and feel free to @ people responsible for completion."
