@@ -14,7 +14,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        If you have any questions about how to categorize this work, please check the [documentation](https://docs.google.com/presentation/d/1C1oCESIL9Z84xXo1DPWQZh48c4BSGlVRAn1DYGEFMUw).
+        If you have any questions about how to use this form, check out [How dotCMS uses GitHub](https://docs.google.com/presentation/d/1C1oCESIL9Z84xXo1DPWQZh48c4BSGlVRAn1DYGEFMUw).
 
   - type: dropdown
     id: proposed-objective
