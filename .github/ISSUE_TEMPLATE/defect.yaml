@@ -55,7 +55,7 @@ body:
     id: dotCMS-version
     attributes:
       label: "dotCMS Version"
-      description: "what version, or environment, is this problem related to?"
+      description: "What version, or environment, is this problem related to?"
       placeholder:
       value: 
     validations:
