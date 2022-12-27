@@ -56,7 +56,17 @@ body:
       value: 
     validations:
       required: true
-
+      
+  - type: textarea
+    id: task-body
+    attributes:
+      label: "Task"
+      description: "What's this issue meant to track?"
+      placeholder:
+      value: 
+    validations:
+      required: true
+  
   - type: textarea
     id: acceptance-criteria 
     attributes:
@@ -65,12 +75,12 @@ body:
       placeholder: 
       value: 
     validations:
-      required: false
+      required: true
 
   - type: textarea
     id: external-links 
     attributes:
-      label: "External Links... Slack Conversations, Support Tickets, Figma Designs...
+      label: "External Links... Slack Conversations, Support Tickets, Figma Designs..."
       description: "Provide links to any support tickets or Slack conversations that help explain the problem or desired outcome."
       placeholder: 
       value: 
