@@ -78,19 +78,9 @@ body:
   - type: textarea
     id: external-links 
     attributes:
-      label: "External Links"
+      label: "External Links... Slack Conversations, Support Tickets, Figma Designs, etc."
       description: "Provide links to any support tickets or Slack conversations that help explain the problem or desired outcome."
       placeholder: 
-      value: 
-    validations:
-      required: false
-
-  - type: textarea
-    id: wireframes-designs-prototypes
-    attributes:
-      label: "Wireframes, Designs, or Prototypes"
-      description: "Provide links to any Figma files."
-      placeholder:
       value: 
     validations:
       required: false
