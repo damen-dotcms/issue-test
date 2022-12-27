@@ -52,6 +52,16 @@ body:
       required: true
 
   - type: textarea
+    id: dotCMS-version
+    attributes:
+      label: "dotCMS Version"
+      description: "what version, or environment, is this problem related to?"
+      placeholder:
+      value: 
+    validations:
+      required: true
+      
+- type: textarea
     id: problem-statement
     attributes:
       label: "Problem Statement"
