@@ -15,7 +15,7 @@ body:
     id: proposed-objective
     attributes:
       label: "Proposed Objective"
-      description: "If you have any questions about how to categorize this work, please refer to https://docs.google.com/presentation/d/1C1oCESIL9Z84xXo1DPWQZh48c4BSGlVRAn1DYGEFMUw"
+      description: "If you have any questions about how to categorize this work, please check the [documentation](https://docs.google.com/presentation/d/1C1oCESIL9Z84xXo1DPWQZh48c4BSGlVRAn1DYGEFMUw)."
       options:
         - "Accessibility (WCAG)"
         - "Application Performance"
@@ -46,10 +46,20 @@ body:
       required: true
 
   - type: textarea
-    id: user-story
+    id: problem-statement
     attributes:
-      label: "User Story"
-      description: "Fill in the role, action, and benefit. As a ___, I want ___, in order to ___."
+      label: "Problem Statement"
+      description: "Explain the problem. How common is this issue? Who does it impact? How severely does it affect them?"
+      placeholder:
+      value: 
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps-to-reproduce
+    attributes:
+      label: "Steps to Reproduce"
+      description: "How do we reproduce this bug? Ideally, please include a screencast link."
       placeholder:
       value: 
     validations:
@@ -59,37 +69,47 @@ body:
     id: acceptance-criteria 
     attributes:
       label: "Acceptance Criteria"
-      description: "Provide links to any support tickets or Slack conversations to help explain the objective."
-      placeholder: "Note : Issues can not be moved into estimation or development without proper Acceptance Criteria being defined."
+      description: "What objective needs to be met in order to resolve this?"
+      placeholder: 
       value: 
     validations:
       required: true
 
   - type: textarea
+    id: external-links 
+    attributes:
+      label: "External Links"
+      description: "Provide links to any support tickets or Slack conversations that help explain the problem or desired outcome."
+      placeholder: 
+      value: 
+    validations:
+      required: false
+
+  - type: textarea
     id: wireframes-designs-prototypes
     attributes:
       label: "Wireframes, Designs, or Prototypes"
-      description: "Provide links to any figma files."
+      description: "Provide links to any Figma files."
       placeholder:
       value: 
     validations:
-      required: true
+      required: false
+
+  - type: textarea
+    id: assumptions
+    attributes:
+      label: "Assumptions"
+      description: "List out any relevant assumptions."
+      placeholder:
+      value: 
+    validations:
+      required: false
 
   - type: textarea
     id: testing-notes
     attributes:
       label: "Testing Notes"
       description: "Notes on how to test this."
-      placeholder:
-      value: 
-    validations:
-      required: true
-
-  - type: textarea
-    id: assumptions
-    attributes:
-      label: "Assumptions"
-      description: "Please list out any relevant assumptions."
       placeholder:
       value: 
     validations:
