@@ -65,7 +65,7 @@ body:
     id: problem-statement
     attributes:
       label: "Problem Statement"
-      description: "Explain the problem. How common is this issue? Who does it impact? How severely does it affect them?"
+      description: "Explain the problem. How common is this issue? Who does it impact? How severely does it affect them? If this is a front-end issue, please include the Browser & OS."
       placeholder:
       value: 
     validations:
