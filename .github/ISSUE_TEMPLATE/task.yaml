@@ -11,13 +11,17 @@ assignees:
 
 body:
 
+  - type: markdown
+    attributes:
+      value: |
+        If you have any questions about how to use this form, check out [How dotCMS uses GitHub](https://docs.google.com/presentation/d/1C1oCESIL9Z84xXo1DPWQZh48c4BSGlVRAn1DYGEFMUw).
+
   - type: dropdown
     id: proposed-objective
     attributes:
       label: "Proposed Objective"
-      description: "If you have any questions about how to categorize this work, please check the [documentation](https://docs.google.com/presentation/d/1C1oCESIL9Z84xXo1DPWQZh48c4BSGlVRAn1DYGEFMUw)."
+      description: 
       options:
-        - "Same As Parent"
         - "Accessibility (WCAG)"
         - "Application Performance"
         - "Core Improvement (Features)"
@@ -38,8 +42,8 @@ body:
     id: proposed-prioritiy
     attributes:
       label: "Proposed Priority"
+      description: 
       options:
-        - "Same As Parent"
         - "Priority 1 - Show Stopper"
         - "Priority 2 - Important"
         - "Priority 3 - Average"
