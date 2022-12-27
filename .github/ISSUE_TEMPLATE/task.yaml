@@ -106,7 +106,9 @@ body:
     attributes:
       label: "Sub-Tasks"
       description: "Use a task-list format, and feel free to @ people responsible for completion."
-      placeholder: 
+      placeholder: |
+        - [ ] Some Task
+        - [ ] Some Task        
       value:
     validations:
       required: false
