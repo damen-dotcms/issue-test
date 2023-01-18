@@ -77,21 +77,11 @@ body:
   - type: textarea
     id: sub-tasks
     attributes:
-      label: "Sub-Tasks"
+      label: "Sub-Tasks & Estimates"
       description: "Use a task-list format, and feel free to @ people responsible for completion."
       placeholder: |
-        - [ ] Some Task Related to this Issue
-        - [ ] Some Task for Damen @damen-dotcms        
-      value:
-    validations:
-      required: false
-      
-  - type: textarea
-    id: estimates
-    attributes:
-      label: "Estimates"
-      description: "Used by development team."
-      placeholder:
+        - [ ] Some Task Related to this Issue (4 points)
+        - [ ] Some Task for Damen (2 points) @damen-dotcms
       value:
     validations:
       required: false
