@@ -93,22 +93,21 @@ body:
       description: 
       options:
         - "Please Select"
+        - "Same as Parent Issue"
         - "Application Performance"
         - "Code Maintenance"
         - "Core Features"
         - "Customer Retention"
         - "Customer Success"
         - "Customer Support"
-        - "Developer Experience"
-        - "DevOps Experience"
-        - "Documentation"
+        - "Documentation & Training"
         - "Integration Support"
         - "Marketing"
         - "Quality Assurance"
+        - "Reliability"
         - "Sales"
-        - "Scalability"
         - "Security"
-        - "Training"
+        - "Technical User Experience"
         - "User Experience"
     validations:
       required: true
@@ -120,6 +119,7 @@ body:
       description: 
       options:
         - "Please Select"
+        - "Same as Parent Issue"
         - "Priority 1 - Show Stopper"
         - "Priority 2 - Important"
         - "Priority 3 - Average"
