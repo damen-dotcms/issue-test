@@ -109,18 +109,16 @@ body:
         - "Customer Retention"
         - "Customer Success"
         - "Customer Support"
-        - "Developer Experience"
-        - "DevOps Experience"
-        - "Documentation"
+        - "Documentation & Training"
         - "Integration Support"
         - "Marketing"
         - "Quality Assurance"
+        - "Reliability"
         - "Sales"
-        - "Scalability"
         - "Security"
-        - "Training"
+        - "Technical User Experience"
         - "User Experience"
-    validations:
+      validations:
       required: true
 
   - type: dropdown
