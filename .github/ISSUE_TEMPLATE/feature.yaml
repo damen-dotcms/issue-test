@@ -1,6 +1,6 @@
 name: Feature
 
-description: I need to change the way something works, or create new functionality.
+description: I need to change the way something works, or create new functionality. 
 
 labels: ['Type - Feature']
 
@@ -76,7 +76,7 @@ body:
     validations:
       required: false
       
-   - type: dropdown
+  - type: dropdown
     id: proposed-objective
     attributes:
       label: "Proposed Objective"
