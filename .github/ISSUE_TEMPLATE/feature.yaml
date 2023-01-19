@@ -34,38 +34,6 @@ body:
     validations:
       required: true
 
-  - type: textarea
-    id: external-links 
-    attributes:
-      label: "External Links... Slack Conversations, Support Tickets, Figma Designs, etc."
-      description: "Provide links to any support tickets or Slack conversations that help explain the problem or desired outcome."
-      placeholder: 
-      value: 
-    validations:
-      required: false
-
-  - type: textarea
-    id: assumptions
-    attributes:
-      label: "Assumptions & Initiation Needs"
-      description: "List relevant assumptions, pre-requisite steps, or issues that need to be completed before this issue can be worked on."
-      placeholder:
-      value: 
-    validations:
-      required: false
-
-  - type: textarea
-    id: sub-tasks
-    attributes:
-      label: "Sub-Tasks & Estimates"
-      description: "Use a task-list format, and feel free to @ people responsible for completion."
-      placeholder: |
-        - [ ] Some Task Related to this Issue (4 points)
-        - [ ] Some Task for Damen (2 points) @damen-dotcms
-      value:
-    validations:
-      required: false
-      
   - type: dropdown
     id: proposed-objective
     attributes:
@@ -104,3 +72,35 @@ body:
         - "Priority 4 - Trivial"
     validations:
       required: true
+
+  - type: textarea
+    id: external-links 
+    attributes:
+      label: "External Links... Slack Conversations, Support Tickets, Figma Designs, etc."
+      description: "Provide links to any support tickets or Slack conversations that help explain the problem or desired outcome."
+      placeholder: 
+      value: 
+    validations:
+      required: false
+
+  - type: textarea
+    id: assumptions
+    attributes:
+      label: "Assumptions & Initiation Needs"
+      description: "List relevant assumptions, pre-requisite steps, or issues that need to be completed before this issue can be worked on."
+      placeholder:
+      value: 
+    validations:
+      required: false
+
+  - type: textarea
+    id: sub-tasks
+    attributes:
+      label: "Sub-Tasks & Estimates"
+      description: "Use a task-list format, and feel free to @ people responsible for completion."
+      placeholder: |
+        - [ ] Some Task Related to this Issue (4 points)
+        - [ ] Some Task for Damen (2 points) @damen-dotcms
+      value:
+    validations:
+      required: false
