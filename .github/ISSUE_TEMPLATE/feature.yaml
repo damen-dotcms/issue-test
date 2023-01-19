@@ -4,9 +4,6 @@ description: I need to change the way something works, or create new functionali
 
 labels: ['Type : Feature',Triage]
 
-assignees:
-  - damen-dotcms
-
 body:
 
   - type: markdown
