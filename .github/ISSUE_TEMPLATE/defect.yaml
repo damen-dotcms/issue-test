@@ -4,9 +4,6 @@ description: I need to report a bug or issue with dotCMS.
 
 labels: ['Type : Defect',Triage]
 
-assignees:
-  - damen-dotcms
-
 body:
 
   - type: markdown
