@@ -4,9 +4,6 @@ description: I just need to create a simple to-do for someone on the team.
 
 labels: ['Type : Task',Triage]
 
-assignees:
-  - damen-dotcms
-
 body:
 
   - type: markdown
