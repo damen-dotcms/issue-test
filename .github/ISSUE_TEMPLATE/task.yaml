@@ -83,6 +83,7 @@ body:
       description: 
       options:
         - "Please Select"
+        - "Same as Parent Issue"
         - "Application Performance"
         - "Code Maintenance"
         - "Core Features"
