@@ -1,6 +1,6 @@
 name: Defect
 
-description: I need to report a bug or issue with dotCMS. 
+description: I need to report a bug or issue with dotCMS.
 
 labels: ['Type : Defect',Triage]
 
@@ -59,18 +59,18 @@ body:
       options:
         - "Please Select"
         - "Application Performance"
+        - "Cloud Engineering"
         - "Code Maintenance"
         - "Core Features"
-        - "Customer Retention"
         - "Customer Success"
         - "Customer Support"
         - "Documentation"
-        - "Integration Support"
+        - "Integrations"
         - "Marketing"
         - "Quality Assurance"
         - "Reliability"
         - "Sales"
-        - "Security"
+        - "Security & Privacy"
         - "Technical User Experience"
         - "User Experience"
     validations:
@@ -109,15 +109,11 @@ body:
       value: 
     validations:
       required: false
-
-  - type: textarea
-    id: sub-tasks
+        
+  - type: markdown
     attributes:
-      label: "Sub-Tasks & Estimates"
-      description: "Use a task-list format, and feel free to @ people responsible for completion."
-      placeholder: |
-        - [ ] Some Task Related to this Issue (4 points)
-        - [ ] Some Task for Damen (2 points) @damen-dotcms
-      value:
-    validations:
-      required: false
+    value: |
+      ### Sub-Tasks & Estimates
+
+      ```[tasklist]
+      ```
