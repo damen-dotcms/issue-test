@@ -114,3 +114,10 @@ body:
     attributes:
       value: |
       ### Sub-Tasks & Estimates
+      
+      
+      ```[tasklist]
+      ```
+    validations:
+      required: false
+
