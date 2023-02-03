@@ -112,12 +112,12 @@ body:
         
   - type: markdown
     attributes:
-      value: |
-      ### Sub-Tasks & Estimates
-      
-      
-      ```[tasklist]
-      ```
-    validations:
-      required: false
+      value: "### Sub-Tasks & Estimates"
 
+  - type: markdown
+    attributes:
+      value: "```[tasklist]"
+
+  - type: markdown
+    attributes:
+      value: "```"
